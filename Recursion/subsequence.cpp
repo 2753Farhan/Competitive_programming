@@ -18,8 +18,8 @@ void printF(int ind, vector<int> &ds,int arr[],int n){
     printF(ind+1,ds,arr,n);
 }
 int main(){
-    int arr[] = {3,1,2};
-    int n=3;
+    int arr[] = {3,3,3,3,3};
+    int n=5;
     vector<int> ds;
     printF(0,ds,arr,n);
 
